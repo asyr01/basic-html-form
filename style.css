@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Kiwi+Maru&display=swap');
 
 html {
+  box-sizing: border-box;
+  margin: 0;
   display: flex;
-  width: 100%;
-  height: 100%;
   justify-content: center;
   font-family: 'Kiwi Maru', serif;
 }
+
 body {
   background-color: #fff;
 }
@@ -22,6 +23,7 @@ fieldset {
   text-align: center;
   background-color: #dedede;
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+  margin-bottom: 10px;
 }
 
 textarea {
@@ -49,8 +51,9 @@ label {
 
 .personal input {
   display: flex;
-  padding: 2px;
+  padding: 5px;
   border-radius: 5px;
+  width: 200px;
 }
 
 .question,
@@ -72,6 +75,7 @@ input[type='submit'] {
   font-weight: 600;
   font-family: 'Kiwi Maru', serif;
   cursor: pointer;
+  margin-right: 15px;
 }
 
 input[type='file'] {
