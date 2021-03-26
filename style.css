@@ -11,6 +11,10 @@ body {
   background-color: #fff;
 }
 
+div:not(:last-child) {
+  margin-bottom: 20px;
+}
+
 fieldset {
   display: flex;
   justify-content: center;
@@ -23,7 +27,7 @@ fieldset {
 textarea {
   resize: none;
   padding: 10px;
-  border-radius: 5px
+  border-radius: 5px;
 }
 
 h1 {
